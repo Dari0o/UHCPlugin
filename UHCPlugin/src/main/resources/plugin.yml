@@ -1,0 +1,19 @@
+name: UHCPlugin
+main: de.uhc.plugin.UHCPlugin
+version: 1.1
+api-version: 1.20
+commands:
+uhc:
+description: UHC commands
+usage: /<command> <start|stop|setarena|setlobby|setborder>
+permission: uhc.use
+permissions:
+uhc.start:
+description: Start the UHC game
+default: op
+uhc.stop:
+description: Stop the UHC game
+default: op
+uhc.setborder:
+description: Set worldborder parameters
+default: op
