@@ -1,0 +1,29 @@
+arena:
+world: world
+x: 0.0
+y: 64.0
+z: 0.0
+yaw: 0.0
+pitch: 0.0
+lobby:
+world: world
+x: 0.0
+y: 64.0
+z: 0.0
+yaw: 0.0
+pitch: 0.0
+border:
+# Welt in der die Border gesteuert wird
+world: world
+# Startgröße (in Blöcken, Durchmesser). Standard: aktuelle WorldBorder-Größe
+start-size: 500.0
+# Zielgröße nach Schrumpfung
+end-size: 150.0
+# Zentrum der Border
+center:
+x: 0.0
+z: 0.0
+# Wann die Schrumpfung startet (Minuten nach Spielstart)
+shrink-start-minutes: 8
+# Dauer der Schrumpfung in Minuten
+shrink-duration-minutes: 5
