@@ -1,9 +1,11 @@
 How to use: 
+
 Start the round with /uhc start
 Set the woldborder with /uhc setborder
 Set the uhc spawnpoint with /uhc setlobby
 Pvp is deactivated for the first 3 minutes and the border begins to shrink to the set size after 10 minutes (you can change all that in the config file or the code)
 
+After the round ends all players are going to be teleported back to designated coordinates (change in line 239 and run: gradle build in the directory where the gradle file is located)
 
 How to install: 
 to use the plugin try to copy the .jar file into the plugin folder of your minecraft server. 
